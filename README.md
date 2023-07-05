@@ -4,12 +4,14 @@ We expand the [OMAPS Dataset](https://github.com/itec-hust/OMAPS) and construct 
 
 | Split | Performace | Duration,minutes | Size, GB | Notes  |
 | ----- | ---------- | ---------------- | -------- | ------ |
-| Train | 146        | 284              | 4.8      | 106243 |
-| Valid | 20         | 44               | 0.81     | 16449  |
-| Test  | 40         | 75               | 1.2      | 27371  |
-| Total | 206        | 403              | 6.8      | 150063 |
+| Train | 146        | 284              | 4.79      | 106243 |
+| Valid | 20         | 44               | 0.75     | 16449  |
+| Test  | 40         | 75               | 1.28      | 27371  |
+| Total | 206        | 403              | 6.82      | 150063 |
 
-Because the dataset is too large, we store the data in BaiduYun Disk oneline. (link：https://pan.baidu.com/s/1M6RVA7Hroy4vycLLpNNWuQ code: will be available when the paper is published) The total dataset will be available when our paper is published.
-
+Because the dataset is too large, we store the data in BaiduYun Disk oneline. (link：https://pan.baidu.com/s/1C8N18rKzUlGpqU7zhdJQng code: itec) 
 <img src="record.png" alt="record" style="zoom:24%;" />
 
+## Some details about the dataset we shared in BaiduYun Disk:
+1. The 'train', 'valid', and 'test' folders contain 'video' and 'wav' folders, which consist of audio and video information respectively.
+2.  The json files named "Aligned audio" and "aligned video" respectively refer to the labels that are aligned with the audio information and video information.
