@@ -4,10 +4,10 @@ We expand the [OMAPS Dataset](https://github.com/itec-hust/OMAPS) and construct 
 
 | Split | Performace | Duration,minutes | Size, GB | Notes  |
 | ----- | ---------- | ---------------- | -------- | ------ |
-| Train | 146        | 284              | 4.79      | 106243 |
+| Train | 144        | 284              | 4.79      | 106243 |
 | Valid | 20         | 44               | 0.75     | 16449  |
 | Test  | 40         | 75               | 1.28      | 27371  |
-| Total | 206        | 403              | 6.82      | 150063 |
+| Total | 204        | 403              | 6.82      | 150063 |
 
 Because the dataset is too large, we store the data in BaiduYun Disk oneline. (link：https://pan.baidu.com/s/1C8N18rKzUlGpqU7zhdJQng code: itec) 
 <img src="record.png" alt="record" style="zoom:24%;" />
